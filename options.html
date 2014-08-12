@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Website Blocker options
+    </title>
+    <link rel="stylesheet" type="text/css" href="options.css" />
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="titleBar">
+        <span id="title">
+          Options
+        </span>
+      </div>
+      <div id="title_under_bar"></div>
+      <div id="body">
+        <h2>Currently blocking: <span id="block_url"></span></h2>
+        <form>
+          <h3>Update URL of site to block (omit the www)</h3>
+          <input id="update_url" type="text" placeholder="ex: facebook.com" />
+          <!--input id='submit' type="button" value="submit"></input>-->
+        </form>
+        <button id="save">update</button>
+        <div id="status"></div>
+      </div>
+    </div>
+  </body>
+</html>
